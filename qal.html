@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Jobs Analytics Dashboard - NCKH 2025</title>
+    <link rel="stylesheet" href="qal.css">
+    <script src="./jquery-4.0.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="box" style="width:200px;height:200px;background:gray;"></div>
+        <button id="btn">Click Me</button>
+    </div>
+    <input id="name" type="text" placeholder="Nhập tên">
+    <p id="result"></p>
+    <select id="country">
+        <option value="">Chọn quốc gia</option>
+        <option value="vn">Việt Nam</option>
+        <option value="jp">Japan</option>
+    </select>
+
+    <br><br>
+
+    <input type="checkbox" name="skill" value="HTML"> HTML
+    <input type="checkbox" name="skill" value="CSS"> CSS
+    <input type="checkbox" name="skill" value="JS"> JS
+
+    <br><br>
+
+    <input type="radio" name="gender" value="Male"> Male
+    <input type="radio" name="gender" value="Female"> Female
+
+    <p id="output"></p>
+    <script src="qal.js"></script>
+</body>
+</html>
